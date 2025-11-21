@@ -12,7 +12,7 @@ const pool = mysql.createPool({
   host: process.env.DB_HOST || 'localhost',
   user: process.env.DB_USER || 'root',
   password: process.env.DB_PASSWORD || '',
-  database: process.env.DB_NAME || 'dit312_6704798',
+  database: process.env.DB_NAME || 'dit312_6708400',
   port: Number(process.env.DB_PORT || 3306),
   waitForConnections: true,
   connectionLimit: 10,
@@ -29,9 +29,9 @@ app.get('/health', async (req, res) => {
   }
 });
 
-app.get('/attractions', async (req, res) => {
+app.get('/movies', async (req, res) => {
   try {
-    const [rows] = await pool.query('SELECT * FROM attraction');
+    const [rows] = await pool.query('SELECT * FROM movies');
     res.json(rows);
   } catch (e) {
     console.error(e);

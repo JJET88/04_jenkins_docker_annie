@@ -11,7 +11,7 @@ export default function Page() {
     async function getAttractions() {
       try {
         const apiHost = process.env.NEXT_PUBLIC_API_HOST;
-        const res = await fetch(`${apiHost}/attractions`, { cache: "no-store" });
+        const res = await fetch(`${apiHost}/movies`, { cache: "no-store" });
         if (!res.ok) throw new Error("Failed to fetch");
         const data = await res.json();
         setRows(data);
@@ -45,12 +45,12 @@ export default function Page() {
     <main className="container">
       <header className="header">
         <h1 className="title">Pwint Phyu Aung - 6708400</h1>
-        <h1 className="title">Attractions</h1>
-        <p className="subtitle">Discover points of interest nearby</p>
+        <h1 className="title">Movies</h1>
+        <p className="subtitle">Popular Movies</p>
       </header>
 
       {!rows || rows.length === 0 ? (
-        <div className="empty">No attractions found.</div>
+        <div className="empty">No movies found.</div>
       ) : (
         <section className="grid" aria-live="polite">
           {rows.map((x) => (
@@ -70,10 +70,10 @@ export default function Page() {
                 <h3 className="card-title">{x.name}</h3>
                 {x.detail && <p className="detail">{x.detail}</p>}
                 <div className="meta">
-                  <small>
+                  {/* <small>
                     Lat: <span className="code">{x.latitude}</span> · Lng:{" "}
                     <span className="code">{x.longitude}</span>
-                  </small>
+                  </small> */}
                 </div>
               </div>
             </article>
