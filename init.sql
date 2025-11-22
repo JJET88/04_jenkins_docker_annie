@@ -7,41 +7,13 @@ CREATE TABLE movies (
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO movies (id, name, detail, coverimage) VALUES
-(1, 'Inception',
- 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.',
- 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg'
- 
-),
-(2, 'The Matrix',
- 'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.',
- 'https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg'
- 
-),
-(3, 'Parasite',
- 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.',
- 'https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
- 
-),
-(4, 'Interstellar',
- 'A team of explorers travel through a wormhole in space in an attempt to ensure humanity''s survival.',
- 'https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
-
-),
-(5, 'Joker',
- 'A mentally troubled comedian embarks on a downward spiral that leads to him becoming the infamous criminal mastermind.',
- 'https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_.jpg'
-
-),
-(6, 'Avengers: Endgame',
- 'The Avengers assemble once more to reverse the damage caused by Thanos and restore balance to the universe.',
- 'https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_FMjpg_UX1000_.jpg'
-
-),
-(7, 'Titanic',
- 'A romance blossoms aboard the ill-fated RMS Titanic between a wealthy young woman and a poor artist.',
- 'https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
-
-);
-
-
-
+(1, 'The Shawshank Redemption', 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency. A powerful tale of hope and friendship set within the walls of Shawshank State Penitentiary.', 'https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg'),
+(2, 'The Dark Knight', 'Batman faces his greatest challenge as the Joker wreaks havoc on Gotham City. A gripping psychological thriller that explores themes of chaos, morality, and what it takes to be a hero in the face of true evil.', 'https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg'),
+(3, 'Inception', 'A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into a CEO''s mind. A mind-bending sci-fi thriller that blurs the lines between dreams and reality.', 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg'),
+(4, 'Pulp Fiction', 'Multiple interconnected stories of Los Angeles criminals, hitmen, and boxers unfold in this nonlinear crime masterpiece. Quentin Tarantino''s iconic film features memorable dialogue and unforgettable characters.', 'https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg'),
+(5, 'Forrest Gump', 'The extraordinary life story of a simple man with a low IQ who witnesses and influences several defining historical events in 20th century America. A heartwarming tale of love, destiny, and the power of kindness.', 'https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg'),
+(6, 'The Matrix', 'A computer hacker learns about the true nature of his reality and his role in the war against its controllers. A groundbreaking sci-fi action film that revolutionized visual effects and philosophical storytelling.', 'https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg'),
+(7, 'Interstellar', 'A team of explorers travel through a wormhole in space in an attempt to ensure humanity''s survival. A visually stunning epic that explores love, time, and the lengths parents will go to save their children.', 'https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg'),
+(8, 'Parasite', 'A poor family schemes to become employed by a wealthy family and infiltrate their household by posing as unrelated, highly qualified individuals. A darkly comedic thriller about class divide and social inequality.', 'https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg'),
+(9, 'Avengers: Endgame', 'After the devastating events of Infinity War, the Avengers assemble once more to reverse Thanos'' actions and restore balance to the universe. An epic conclusion to Marvel''s Infinity Saga with emotional stakes.', 'https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg'),
+(10, 'Titanic', 'A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic. An epic romance and disaster film that became a cultural phenomenon and box office record-breaker.', 'https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg');
