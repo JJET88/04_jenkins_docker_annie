@@ -58,12 +58,8 @@ export default function Page() {
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-8 px-4">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-12 pt-8">
-          {/* <div className="inline-flex items-center gap-2 bg-yellow-400/10 backdrop-blur-sm border border-yellow-400/20 rounded-full px-6 py-2 shadow-lg mb-6">
-            <span className="text-yellow-400 text-xl">⭐</span>
-            <p className="text-sm font-bold text-yellow-400">Pwint Phyu Aung - 6708400</p>
-            <span className="text-yellow-400 text-xl">⭐</span>
-          </div>
-           */}
+        
+  
           <div className="relative inline-block mb-6">
             <h1 className="text-6xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 drop-shadow-2xl">
               MOVIES
@@ -71,7 +67,7 @@ export default function Page() {
             <div className="absolute -inset-1 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 blur-2xl opacity-30 -z-10"></div>
           </div>
           
-          <p className="text-xl text-gray-300 font-light mb-4">🍿 Popular Movies Collection 🎭</p>
+          <p className="text-xl text-gray-300 font-light mb-4">🍿 Popular Movies Collections 🎭</p>
           
           <div className="flex items-center justify-center gap-3 mt-6">
             <span className="inline-block w-20 h-1 bg-gradient-to-r from-transparent via-yellow-400 to-transparent rounded-full"></span>
