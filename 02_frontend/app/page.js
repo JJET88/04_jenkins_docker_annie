@@ -34,7 +34,7 @@ export default function Page() {
               <div className="w-16 h-16 border-4 border-yellow-400 border-t-transparent rounded-full animate-spin"></div>
               <div className="absolute inset-0 w-16 h-16 border-4 border-red-500 border-b-transparent rounded-full animate-spin" style={{ animationDirection: 'reverse', animationDuration: '1s' }}></div>
             </div>
-            <p className="text-xl text-white font-semibold mt-6 animate-pulse">Loading Movies...</p>
+            <p className="text-xl text-white font-semibold mt-6 animate-pulse">Loading Movies..</p>
           </div>
         </div>
       </main>
